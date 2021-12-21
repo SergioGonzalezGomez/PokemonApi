@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,300&display=swap');
+
+
+body {
+    background-color: firebrick;
+    margin: 0%;
+    padding: 0%;
+    font-family: "Roboto", sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.container__pokemon {
+    margin: 20px;
+    text-align: center;
+    background-color: darkslategray;
+    color: whitesmoke;
+    border: solid 2px whitesmoke;
+    width: 30%;
+    height: 50%;
+    padding: 15px;
+    border-radius: 50px;
+    background-image: url(./images/giphy.gif);
+}
+
+.container__pokemon:hover {
+    box-shadow: rgb(26, 226, 0) 0px 10px 70px -20px, rgb(5, 255, 5) 0px 20px 60px -30px, rgba(10, 245, 30, 0.911) 0px -2px 6px 0px, rgb(26, 226, 0) 0px -10px 10px -20px inset;
+}
+
+
+@media (min-width: 1024px) {
+    .container__pokemon {
+        width: 250px;
+        height: 350px;
+      
+    }
+}
+@media (min-width: 1024px) {
+    .imagenpokemon--img {
+        width: 60%;
+        height: 50%;
+        object-fit: contain;
+    }
+}
+@media (min-width: 1024px) {
+    .imagenpokemon {
+        width: 100%;
+        height: 100%;  
+        display: block;               
+        margin-bottom: 10px;     
+    }
+} 
+@media (min-width: 1024px) {
+    .container__pokemon:hover {
+        box-shadow: rgb(26, 226, 0) 0px 10px 70px -20px, rgb(5, 255, 5) 0px 20px 60px -30px, rgba(10, 245, 30, 0.911) 0px -2px 6px 0px, rgb(26, 226, 0) 0px -10px 10px -20px inset;
+    }
+}  
+@media (min-width: 1024px) {
+    h2 {
+        font-size: 24px;
+    } 
+}
+@media (min-width: 1024px){
+      h3 {
+        font-size: 18px !important;
+    }
+} 
+@media (min-width: 1024px) {
+      h4 {
+        font-size: 16px !important;
+        padding: 1px;
+        margin: 4px;
+    }
+}
+  
+.imagenpokemon {
+    width: 100%;
+    height: 100%;  
+    display: block;               
+    margin-bottom: 10px;     
+}
+.imagenpokemon--img {
+    width: 65%;
+    height: 60%;
+    object-fit: contain;
+}
+
+h2 {
+    font-size: 100%;
+    padding-top: 2px;
+    text-decoration: underline;
+    
+}
+h3 {
+    font-size: 14px;
+    margin-top: 5px;
+    margin-bottom: 3px;
+}
+h4 {
+    font-size: 12px;
+    padding: 1px;
+    margin: 4px;
+}
+
+.buscador {
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    margin: 20px;
+}
+.buscador button {
+    padding: 5px;
+    margin: 25px;
+    width: 250px;
+    align-self: center;
+    font-family: "Roboto", sans-serif;
+    color: yellow;   
+    text-shadow: 1px 1px 0 #4074b5, 2px -2px 0 #4074b5, -2px 2px 0 #4074b5, -2px -2px 0 #4074b5, 2px 0px 0 #4074b5, 0px 2px 0 #4074b5, -2px 0px 0 #4074b5, 0px -2px 0 #4074b5;
+    }
+
+
+.buscador button:hover {
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgb(95, 167, 250) 0px 5px 16px;
+}
+.buscador input {
+    padding: 5px;
+    margin: 20px;
+    width: 300px;
+    align-self: center;
+    box-shadow: rgba(2, 231, 40, 0.966) 0px -23px 25px 0px inset, rgb(25, 218, 0) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgb(255, 251, 6) 0px 2px 16px;
+}
+
+.pokeimg{
+    margin-top: 20px;
+    display: flex;
+}
+.pokeimg img {
+    display: block;
+    max-width: 80%;
+    max-height: 20%;
+    margin: auto;
+    align-self: center;
+    
+}
