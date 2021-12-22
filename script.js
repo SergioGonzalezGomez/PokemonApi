@@ -40,7 +40,7 @@ const getPokemon = async () => {
 
        if (buscador$$.value == ""){
         div$$.innerHTML += pokemonHTML;
-       } else if (buscador$$.value.toUpperCase() == pokemon.nombre) {
+       } else if (buscador$$.value.toUpperCase() == pokemon.nombre || buscador$$.value == pokemon.numero) {
            div$$.innerHTML = pokemonHTML;
        };   
     };
